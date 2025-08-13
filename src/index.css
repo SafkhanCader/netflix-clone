@@ -1,0 +1,21 @@
+:root{
+  --bg:#141414;
+  --bg-2:#000;
+  --text:#fff;
+  --muted:#b3b3b3;
+  --accent:#e50914;
+  --overlay:linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.9) 100%);
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a { color: inherit; text-decoration: none; }
+
+main { padding-top: 64px; }

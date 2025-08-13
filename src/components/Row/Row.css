@@ -1,0 +1,85 @@
+/* Row.css */
+
+.row {
+  margin: 2rem 0;
+  color: #fff;
+}
+
+.row__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.row__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.row__controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.carousel-btn {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.row__scroller {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding: 0 1rem;
+  gap: 0.5rem; /* reduced gap like Netflix */
+}
+
+.row__scroller::-webkit-scrollbar {
+  display: none; /* hide scrollbar */
+}
+
+.row__status {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem 0;
+  color: #aaa;
+}
+
+.row__status--error {
+  color: #ff4d4f;
+}
+
+/* MovieCard inside Row adjustments */
+.row__scroller > * {
+  flex: 0 0 auto;
+  width: 150px; /* Netflix-style card width */
+  height: 225px; /* Netflix-style card height */
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.row__scroller > * img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.row__scroller > *:hover {
+  transform: scale(1.1); /* Netflix-like hover zoom */
+  z-index: 2;
+}
