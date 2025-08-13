@@ -72,20 +72,20 @@
 ## 📸 Screenshots
 
 ### 🏠 Login & Signup Pages
-![Login Screenshot](screenshots/login.png)
-![Signup Screenshot](screenshots/signup.png)
+![Login Screenshot](/Screenshots/login.png)
+![Signup Screenshot](/Screenshots/signin.png)
 
 ### 🏠 Homepage Banner
-![Banner Screenshot](screenshots/banner.png)
+![Banner Screenshot](/Screenshots/home.png)
 
 ### 📊 Movie Carousel
-![Popular Movies Screenshot](screenshots/popular.png)
+![Popular Movies Screenshot](/Screenshots/Movie_Carousel_1.png)
+![Popular Movies Screenshot](/Screenshots/Movie_Carousel_2.png)
 
-### 📦 Footer
-![Footer Screenshot](screenshots/footer.png)
 
-> 📂 *Screenshots are stored in the `/screenshots` folder.*
-
+### Database (Firebase)
+![Popular Movies Screenshot](/Screenshots/Movie_Carousel_1.png)
+![Popular Movies Screenshot](/Screenshots/Movie_Carousel_2.png)
 ---
 
 ## ⚙️ Installation
