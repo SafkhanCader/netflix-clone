@@ -9,12 +9,7 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBM4_Ys1-IFvks3aBgx_nQnG_hKZXrQkH8",
-  authDomain: "netflix-clone-fbfc4.firebaseapp.com",
-  projectId: "netflix-clone-fbfc4",
-  storageBucket: "netflix-clone-fbfc4.appspot.com", // corrected
-  messagingSenderId: "226204629388",
-  appId: "1:226204629388:web:e956fc26df5bddba593ea9"
+  
 };
 
 // Initialize Firebase
