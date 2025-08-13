@@ -84,8 +84,8 @@
 
 
 ### Database (Firebase)
-![Popular Movies Screenshot](/Screenshots/Movie_Carousel_1.png)
-![Popular Movies Screenshot](/Screenshots/Movie_Carousel_2.png)
+![Popular Movies Screenshot](/Screenshots/firebase.png)
+
 ---
 
 ## ⚙️ Installation
